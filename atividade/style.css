@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+    font-size: 1em;
+}
+.controles {
+    display: flex;
+    justify-content: flex-start;
+}
+.controles button {
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.controles button:hover {
+    background-color: var(--btn-hover);
+}
+
+.cabecalho {
+    background-color: var(--bg-box-color);
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+#ficha {
+    background-color: var(--bg-box-color);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#descricao, #letra {
+    background-color: var(--bg-box-color);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --bg-box-color: #1e1e1e;
+    --h2-color: #994cf7;
+    --btn-bg: #994cf7;
+    --btn-hover: #3404a3;
+}
