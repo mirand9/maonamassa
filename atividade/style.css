@@ -9,6 +9,9 @@ body {
     padding: 20px;
     font-size: 1em;
 }
+ul { 
+    list-style: none;
+}
 .controles {
     display: flex;
     justify-content: flex-start;
